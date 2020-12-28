@@ -1,0 +1,16 @@
+[
+{
+  "modid": "keystrokesmod",
+  "name": "Keystrokes Mod",
+  "description": "A recreation of the popular Keystrokes Mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["steel"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

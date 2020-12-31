@@ -118,6 +118,12 @@ public class KeystrokesModGUI extends GuiScreen {
         drawRect(0, 0, width, height, 0xAA000000);
         renderHelpLabels();
 
+        GL11.glPushMatrix();
+        GL11.glScaled(0.5, 0.5, 1);
+        String credit = "@xosteel on twitter";
+        fontRendererObj.drawString(credit, 2, height * 2 - fontRendererObj.FONT_HEIGHT - 1, -1, true);
+        GL11.glPopMatrix();
+
         factoryResetButton.render(mouseX, mouseY, partialTicks);
         openConfigButton.render(mouseX, mouseY, partialTicks);
 
